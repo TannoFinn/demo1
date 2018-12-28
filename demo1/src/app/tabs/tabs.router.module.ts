@@ -56,35 +56,6 @@ const routes: Routes = [
 
 const routes: Routes = [
     {
-        path: 'tabs',
-        component: TabsPage,
-        children: [
-            {
-                path: 'tab1',
-                children: [
-                    {path: 'tab1NavName', component: Tab1Page}
-                ]
-            },
-            {
-                path: 'tab2',
-                children: [
-                    {path: 'tab2NavName', component: Tab2Page}
-                ]
-            },
-            {
-                path: 'tab3',
-                children: [
-                    {path: 'tab3NavName', component: Tab3Page}
-                ]
-            },
-            {
-                path: '',
-                redirectTo: '/tabs/tab1',
-                pathMatch: 'full'
-            }
-        ]
-    },
-    {
         path: '',
         redirectTo: '/tabs/tab1',
         pathMatch: 'full'

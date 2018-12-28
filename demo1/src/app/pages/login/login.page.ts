@@ -17,8 +17,7 @@ export class LoginPage implements OnInit {
     }
 
     goToTabs() {
-        //this.navCtrl.navigateRoot('/tabs/tab1');
-        this.navCtrl.navigateRoot('/tabs/tab1/tab1NavName');
+        this.navCtrl.navigateRoot('/tabs/tab1');
     }
 
 }
